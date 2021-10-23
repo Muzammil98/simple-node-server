@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
-    res.send('Response from Generic backend server');
+    res.send('Response from Generic backend server, Now updated');
 });
 
 const port = process.env.PORT || 3000;
