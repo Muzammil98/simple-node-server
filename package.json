@@ -1,7 +1,7 @@
 {
   "name": "aws-ec2-node-express",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
@@ -9,6 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": { 
+    "node" : "16.13.0"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1"
